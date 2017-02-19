@@ -10,8 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RameshVagh.Apis", "src\rameshvagh\RameshVagh.Apis.xproj", "{9233BE67-D55A-4ADA-9EDB-20FE25F5A506}"
-EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RameshVagh.Common", "src\RameshVagh.Common\RameshVagh.Common.xproj", "{298D8229-CD3B-4D18-A225-15DDD7847544}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RameshVagh.Config", "src\RameshVagh.Config\RameshVagh.Config.xproj", "{4E230F72-77F6-4259-85C2-2031A7DC74C5}"
@@ -22,27 +20,28 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RameshVagh.Core", "src\Rame
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RameshVagh.Data", "src\RameshVagh.Data\RameshVagh.Data.xproj", "{E9E1983B-5664-4FE0-8453-20A0DDA97A53}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RameshVagh.Web(2)", "RameshVagh.Web\", "{5F10D37C-D2D4-41B6-A4AF-DE3650A62A96}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RameshVagh.Web(3)", "src\RameshVagh.Web\", "{9FECD24F-9479-44B7-A970-02B2F423AABC}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_53506"
-		Debug.AspNetCompiler.PhysicalPath = "RameshVagh.Web\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53506\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53810"
+		Debug.AspNetCompiler.PhysicalPath = "src\RameshVagh.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53810\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_53506"
-		Release.AspNetCompiler.PhysicalPath = "RameshVagh.Web\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53506\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53810"
+		Release.AspNetCompiler.PhysicalPath = "src\RameshVagh.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53810\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "53506"
-		SlnRelativePath = "RameshVagh.Web\"
-		DefaultWebSiteLanguage = "Visual C#"
+		VWDPort = "53810"
+		SlnRelativePath = "src\RameshVagh.Web\"
 	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RameshVagh.Apis", "src\RameshVagh.Apis\RameshVagh.Apis.xproj", "{9233BE67-D55A-4ADA-9EDB-20FE25F5A506}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,10 +49,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9233BE67-D55A-4ADA-9EDB-20FE25F5A506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9233BE67-D55A-4ADA-9EDB-20FE25F5A506}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9233BE67-D55A-4ADA-9EDB-20FE25F5A506}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9233BE67-D55A-4ADA-9EDB-20FE25F5A506}.Release|Any CPU.Build.0 = Release|Any CPU
 		{298D8229-CD3B-4D18-A225-15DDD7847544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{298D8229-CD3B-4D18-A225-15DDD7847544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{298D8229-CD3B-4D18-A225-15DDD7847544}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -74,21 +69,25 @@ Global
 		{E9E1983B-5664-4FE0-8453-20A0DDA97A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9E1983B-5664-4FE0-8453-20A0DDA97A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9E1983B-5664-4FE0-8453-20A0DDA97A53}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F10D37C-D2D4-41B6-A4AF-DE3650A62A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F10D37C-D2D4-41B6-A4AF-DE3650A62A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F10D37C-D2D4-41B6-A4AF-DE3650A62A96}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F10D37C-D2D4-41B6-A4AF-DE3650A62A96}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9FECD24F-9479-44B7-A970-02B2F423AABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FECD24F-9479-44B7-A970-02B2F423AABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FECD24F-9479-44B7-A970-02B2F423AABC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FECD24F-9479-44B7-A970-02B2F423AABC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9233BE67-D55A-4ADA-9EDB-20FE25F5A506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9233BE67-D55A-4ADA-9EDB-20FE25F5A506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9233BE67-D55A-4ADA-9EDB-20FE25F5A506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9233BE67-D55A-4ADA-9EDB-20FE25F5A506}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{9233BE67-D55A-4ADA-9EDB-20FE25F5A506} = {2B8B27F2-D42F-488A-A192-F522A3120AF3}
 		{298D8229-CD3B-4D18-A225-15DDD7847544} = {2B8B27F2-D42F-488A-A192-F522A3120AF3}
 		{4E230F72-77F6-4259-85C2-2031A7DC74C5} = {2B8B27F2-D42F-488A-A192-F522A3120AF3}
 		{06A8E7C6-CD03-4204-8D34-8F2F6C26EB93} = {2B8B27F2-D42F-488A-A192-F522A3120AF3}
 		{4252C5CA-B427-4ACA-A455-A7F4BF30392A} = {2B8B27F2-D42F-488A-A192-F522A3120AF3}
 		{E9E1983B-5664-4FE0-8453-20A0DDA97A53} = {2B8B27F2-D42F-488A-A192-F522A3120AF3}
-		{5F10D37C-D2D4-41B6-A4AF-DE3650A62A96} = {2B8B27F2-D42F-488A-A192-F522A3120AF3}
+		{9FECD24F-9479-44B7-A970-02B2F423AABC} = {2B8B27F2-D42F-488A-A192-F522A3120AF3}
+		{9233BE67-D55A-4ADA-9EDB-20FE25F5A506} = {2B8B27F2-D42F-488A-A192-F522A3120AF3}
 	EndGlobalSection
 EndGlobal
