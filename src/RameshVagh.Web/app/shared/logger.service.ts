@@ -1,0 +1,1 @@
+﻿// Example shared service (e.g. LoggerService)
